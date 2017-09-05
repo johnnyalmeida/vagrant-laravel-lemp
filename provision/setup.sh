@@ -36,7 +36,7 @@ echo "Installing PHP..."
 sudo apt-get install -y php7.0 php7.0-fpm > /dev/null
 
 echo "Installing PHP extensions..."
-sudo apt-get install -y curl php7.0-mysql php7.0-zip php7.0-curl php7.0-mcrypt php7.0-xml > /dev/null
+sudo apt-get install -y curl php7.0-mysql php7.0-zip  php7.0-mbstring php7.0-curl php7.0-mcrypt php7.0-xml > /dev/null
 
 echo "Installing PHP image extensions..."
 sudo apt-get install -y pkg-config libmagickwand-dev imagemagick build-essential
